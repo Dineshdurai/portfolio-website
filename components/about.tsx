@@ -19,30 +19,29 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Accounting</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
+        After graduating from CIT in{" "}
+        <span className="font-medium">Communication Engineering</span>, I Joined
+        in Tecknoturf Info Services to pursue my passion for programming. I have
+        worked on <span className="font-medium">Moodle LMS</span> for varies
+        clients like{" "}
+        <span className="font-medium">Capgemini, Assesnture, CTS </span>and etc.{" "}
         <span className="italic">My favorite part of programming</span> is the
         problem-solving aspect. I <span className="underline">love</span> the
         feeling of finally figuring out a solution to a problem. My core stack
         is{" "}
         <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
+          Moodle, PHP, Javascript, Mysql, React and Zoho CRM
         </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
+        . I am always looking to learn new technologies. I am currently looking
+        for a <span className="font-medium">full-time position</span> as a
+        Senior software developer.
       </p>
 
       <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and playing with my dog. I also enjoy{" "}
+        <span className="italic">When I'm not coding</span>, I enjoy doing
+        Organic Farming and cooking and playing badmiton. I also enjoy{" "}
         <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">history and philosophy</span>. I'm also
-        learning how to play the guitar.
+        learning <span className="font-medium">React and Next.js</span>.
       </p>
     </motion.section>
   );

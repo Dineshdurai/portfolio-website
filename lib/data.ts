@@ -2,9 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import cicmImg from "@/public/cicm_dashboard.jpeg";
+import itrackImg from "@/public/itrack.png";
+import tekstacImg from "@/public/tekstac_2018.png";
 
 export const links = [
   {
@@ -35,73 +35,75 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Senior Software Developer",
+    company: "Elumina Elearning",
+    location: "Chennai, TN",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "I have upgraded Moodle3.6 to Moodle3.9 for ACD and RANZCO. I have also lead the CICM MDP Portal project which integrated Moodle with Zoho CRM, Wordpress and Assessapp Product.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2020 -2023",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Senior Software Developer",
+    company: "Transneuron Technology",
+    location: "Bangalore, KA",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "I worked on Building iTrack Product using Moodle LMS with varies features like Course Ecommerce, Payment gateway integration, Mentor Mentee concept, Job portal etc.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2019 - 2020",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Product Developer",
+    company: "Technoturf Info Services",
+    location: "Coimbatore, TN",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "I worked on Moodle LMS for varies clients like Capgemini, Assesnture, CTS and etc. Developed varies features like helpdesk plugin, Secure quiz option, Virtual Programming lab setup and Gamification in Levelup plugin.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2015 - 2019",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "CICM MDP Portal",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "I have lead the CICM MDP Portal project which integrated Moodle with Zoho CRM, Wordpress and Assessapp Product which took 1.5 years to complete.",
+    tags: ["Moodle", "Zoho CRM", "Wordpress", "Assessapp"],
+    imageUrl: cicmImg,
   },
   {
-    title: "rmtDev",
+    title: "iTrack Platform",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "I worked on Building iTrack Product using Moodle LMS with varies features like Course Ecommerce, Payment gateway integration, Mentor Mentee concept, Job portal etc.",
+    tags: ["Moodle", "PHP", "Javascript", "Mysql", "AJAX"],
+    imageUrl: itrackImg,
   },
   {
-    title: "Word Analytics",
+    title: "Tekstac Platform",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      " Developed varies features like helpdesk plugin, Secure quiz option, Virtual Programming lab setup and Gamification in Levelup plugin.",
+    tags: ["Moodle", "PHP", "Javascript", "PostgresSQL", "AJAX"],
+    imageUrl: tekstacImg,
   },
 ] as const;
 
 export const skillsData = [
-  "HTML",
-  "CSS",
+  "Project Management",
+  "Client Handling",
+  "API",
+  "Moodle",
+  "Php",
   "JavaScript",
-  "TypeScript",
+  "Mysql",
+  "Core Java",
+  "Zoho CRM",
   "React",
   "Next.js",
   "Node.js",
   "Git",
   "Tailwind",
-  "Prisma",
   "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
   "Express",
   "PostgreSQL",
-  "Python",
-  "Django",
   "Framer Motion",
 ] as const;
