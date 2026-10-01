@@ -21,10 +21,10 @@ export default function About() {
       <p className="mb-3">
         After graduating from CIT in{" "}
         <span className="font-medium">Communication Engineering</span>, I Joined
-        in Tecknoturf Info Services to pursue my passion for programming. I have
-        worked on <span className="font-medium">Moodle LMS</span> for varies
+        in Technoturf Info Services to pursue my passion for programming. I have
+        worked on <span className="font-medium">Moodle LMS</span> for various
         clients like{" "}
-        <span className="font-medium">Capgemini, Assesnture, CTS </span>and etc.{" "}
+        <span className="font-medium">Capgemini, Accenture, CTS </span>and etc.{" "}
         <span className="italic">My favorite part of programming</span> is the
         problem-solving aspect. I <span className="underline">love</span> the
         feeling of finally figuring out a solution to a problem. My core stack
@@ -39,7 +39,7 @@ export default function About() {
 
       <p>
         <span className="italic">When I'm not coding</span>, I enjoy doing
-        Organic Farming and cooking and playing badmiton. I also enjoy{" "}
+        Organic Farming and cooking and playing badminton. I also enjoy{" "}
         <span className="font-medium">learning new things</span>. I am currently
         learning <span className="font-medium">React and Next.js</span>.
       </p>
