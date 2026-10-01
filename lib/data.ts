@@ -39,7 +39,7 @@ export const experiencesData = [
     company: "Elumina Elearning",
     location: "Chennai, TN",
     description:
-      "I have upgraded Moodle3.6 to Moodle3.9 for ACD and RANZCO. I have also lead the CICM MDP Portal project which integrated Moodle with Zoho CRM, Wordpress and Assessapp Product.",
+      "I have upgraded Moodle3.6 to Moodle3.9 for ACD and RANZCO. I have also lead the CICM MDP Portal project which integrated Moodle with Zoho CRM, WordPress and Assessapp Product.",
     icon: React.createElement(LuGraduationCap),
     date: "2020 -2023",
   },
@@ -67,8 +67,8 @@ export const projectsData = [
   {
     title: "CICM MDP Portal",
     description:
-      "I have lead the CICM MDP Portal project which integrated Moodle with Zoho CRM, Wordpress and Assessapp Product which took 1.5 years to complete.",
-    tags: ["Moodle", "Zoho CRM", "Wordpress", "Assessapp"],
+      "I have lead the CICM MDP Portal project which integrated Moodle with Zoho CRM, WordPress and Assessapp Product which took 1.5 years to complete.",
+    tags: ["Moodle", "Zoho CRM", "WordPress", "Assessapp"],
     imageUrl: cicmImg,
   },
   {
@@ -82,7 +82,7 @@ export const projectsData = [
     title: "Tekstac Platform",
     description:
       " Developed various features like helpdesk plugin, Secure quiz option, Virtual Programming lab setup and Gamification in Levelup plugin.",
-    tags: ["Moodle", "PHP", "Javascript", "PostgresSQL", "AJAX"],
+    tags: ["Moodle", "PHP", "Javascript", "PostgreSQL", "AJAX"],
     imageUrl: tekstacImg,
   },
 ] as const;
