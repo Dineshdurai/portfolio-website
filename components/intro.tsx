@@ -33,7 +33,7 @@ export default function Intro() {
           >
             <Image
               src={profilephoto}
-              alt="Ricardo portrait"
+              alt="Dinesh Durai, Moodle developer"
               width="192"
               height="192"
               quality="95"
@@ -59,16 +59,24 @@ export default function Intro() {
       </div>
 
       <motion.h1
-        className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
+        className="mb-4 mt-4 px-4 text-3xl font-bold !leading-[1.5] sm:text-5xl"
+        initial={{ opacity: 0, y: 100 }}
+        animate={{ opacity: 1, y: 0 }}
+      >
+        Dinesh Durai, Moodle Developer
+      </motion.h1>
+
+      <motion.p
+        className="mb-10 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
         <span className="font-bold">Hello, I'm Dinesh Durai.</span> I'm a{" "}
         <span className="font-bold">Moodle developer</span> with{" "}
-        <span className="font-bold">8 years</span> of experience. I enjoy
-        Working on <span className="italic">LMS sites & apps</span>. My focus is{" "}
+        <span className="font-bold">10+ years</span> of experience. I enjoy
+        working on <span className="italic">LMS sites & apps</span>. My focus is{" "}
         <span className="underline"> EduTech Space</span>.
-      </motion.h1>
+      </motion.p>
 
       <motion.div
         className="flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium"
@@ -103,16 +111,20 @@ export default function Intro() {
           className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
           href="https://www.linkedin.com/in/dinesh-durai-752b46104/"
           target="_blank"
+          rel="noopener noreferrer"
         >
-          <BsLinkedin />
+          <BsLinkedin aria-hidden="true" />
+          <span className="sr-only">LinkedIn profile</span>
         </a>
 
         <a
           className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
           href="https://github.com/Dineshdurai"
           target="_blank"
+          rel="noopener noreferrer"
         >
-          <FaGithubSquare />
+          <FaGithubSquare aria-hidden="true" />
+          <span className="sr-only">GitHub profile</span>
         </a>
       </motion.div>
     </section>

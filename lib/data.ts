@@ -48,7 +48,7 @@ export const experiencesData = [
     company: "Transneuron Technology",
     location: "Bangalore, KA",
     description:
-      "I worked on Building iTrack Product using Moodle LMS with varies features like Course Ecommerce, Payment gateway integration, Mentor Mentee concept, Job portal etc.",
+      "I worked on Building iTrack Product using Moodle LMS with various features like Course Ecommerce, Payment gateway integration, Mentor Mentee concept, Job portal etc.",
     icon: React.createElement(CgWorkAlt),
     date: "2019 - 2020",
   },
@@ -57,7 +57,7 @@ export const experiencesData = [
     company: "Technoturf Info Services",
     location: "Coimbatore, TN",
     description:
-      "I worked on Moodle LMS for varies clients like Capgemini, Assesnture, CTS and etc. Developed varies features like helpdesk plugin, Secure quiz option, Virtual Programming lab setup and Gamification in Levelup plugin.",
+      "I worked on Moodle LMS for various clients like Capgemini, Accenture, CTS and etc. Developed various features like helpdesk plugin, Secure quiz option, Virtual Programming lab setup and Gamification in Levelup plugin.",
     icon: React.createElement(FaReact),
     date: "2015 - 2019",
   },
@@ -74,14 +74,14 @@ export const projectsData = [
   {
     title: "iTrack Platform",
     description:
-      "I worked on Building iTrack Product using Moodle LMS with varies features like Course Ecommerce, Payment gateway integration, Mentor Mentee concept, Job portal etc.",
+      "I worked on Building iTrack Product using Moodle LMS with various features like Course Ecommerce, Payment gateway integration, Mentor Mentee concept, Job portal etc.",
     tags: ["Moodle", "PHP", "Javascript", "Mysql", "AJAX"],
     imageUrl: itrackImg,
   },
   {
     title: "Tekstac Platform",
     description:
-      " Developed varies features like helpdesk plugin, Secure quiz option, Virtual Programming lab setup and Gamification in Levelup plugin.",
+      " Developed various features like helpdesk plugin, Secure quiz option, Virtual Programming lab setup and Gamification in Levelup plugin.",
     tags: ["Moodle", "PHP", "Javascript", "PostgresSQL", "AJAX"],
     imageUrl: tekstacImg,
   },

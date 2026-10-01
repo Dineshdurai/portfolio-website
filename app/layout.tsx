@@ -9,10 +9,55 @@ import { Toaster } from "react-hot-toast";
 
 const inter = Inter({ subsets: ["latin"] });
 
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://dineshduraiportfolio.vercel.app";
+const title = "Dinesh Durai | Moodle Developer & LMS Specialist, Chennai";
+const description =
+  "Moodle developer in Chennai with 10+ years building LMS platforms, custom plugins and Zoho CRM integrations for EdTech. View projects and get in touch.";
+
 export const metadata = {
-  title: "Dinesh Durai Portfolio",
-  description:
-    "Dinesh Durai is Moodle Dveloper | Freelancer with 8 Years of Experience in Edutech",
+  metadataBase: new URL(siteUrl),
+  title,
+  description,
+  alternates: { canonical: "/" },
+  openGraph: {
+    type: "website",
+    url: "/",
+    title,
+    description,
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Dinesh Durai, Moodle developer",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title,
+    description,
+    images: ["/og-image.png"],
+  },
+};
+
+const personJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  name: "Dinesh Durai",
+  jobTitle: "Moodle Developer",
+  description,
+  url: siteUrl,
+  image: `${siteUrl}/og-image.png`,
+  address: {
+    "@type": "PostalAddress",
+    addressLocality: "Chennai",
+    addressCountry: "IN",
+  },
+  sameAs: [
+    "https://www.linkedin.com/in/dinesh-durai-752b46104/",
+    "https://github.com/Dineshdurai",
+  ],
 };
 
 export default function RootLayout({
@@ -22,6 +67,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="!scroll-smooth">
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(personJsonLd) }}
+        />
+      </head>
       <body
         className={`${inter.className} bg-gray-50 text-gray-950 relative pt-28 sm:pt-36 dark:bg-gray-900 dark:text-gray-50 dark:text-opacity-90`}
       >
