@@ -12,7 +12,7 @@ const inter = Inter({ subsets: ["latin"] });
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://dineshduraiportfolio.vercel.app";
 const title = "Dinesh Durai | Moodle Developer & LMS Specialist, Chennai";
 const description =
-  "Moodle developer in Chennai with 8+ years building LMS platforms, custom plugins and Zoho CRM integrations for EdTech. View projects and get in touch.";
+  "Moodle developer in Chennai with 10+ years building LMS platforms, custom plugins and Zoho CRM integrations for EdTech. View projects and get in touch.";
 
 export const metadata = {
   metadataBase: new URL(siteUrl),
