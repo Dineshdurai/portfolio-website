@@ -20,8 +20,8 @@ export default function About() {
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
         After graduating from CIT in{" "}
-        <span className="font-medium">Communication Engineering</span>, I Joined
-        in Technoturf Info Services to pursue my passion for programming. I have
+        <span className="font-medium">Communication Engineering</span>, I joined
+        Technoturf Info Services to pursue my passion for programming. I have
         worked on <span className="font-medium">Moodle LMS</span> for various
         clients like{" "}
         <span className="font-medium">Capgemini, Accenture, CTS </span>and etc.{" "}
@@ -32,9 +32,9 @@ export default function About() {
         <span className="font-medium">
           Moodle, PHP, Javascript, Mysql, React and Zoho CRM
         </span>
-        . I am always looking to learn new technologies. I am currently looking
-        for a <span className="font-medium">full-time position</span> as a
-        Senior software developer.
+        . I am always looking to learn new technologies. I am currently working
+        as a <span className="font-medium">Senior PHP Developer</span> at
+        ILEARNME LLP, leading a team that builds multi-tenant LMS platforms.
       </p>
 
       <p>
