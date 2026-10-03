@@ -75,7 +75,7 @@ export const experiencesData = [
     company: "Technoturf Info Services",
     location: "Coimbatore, TN",
     description:
-      "I worked on Moodle LMS for various clients like Capgemini, Accenture, CTS and etc. Developed various features like helpdesk plugin, Secure quiz option, Virtual Programming lab setup and Gamification in Levelup plugin.",
+      "I worked on Moodle LMS for various clients like Capgemini, Accenture, CTS and others. Developed various features like helpdesk plugin, Secure quiz option, Virtual Programming lab setup and Gamification in Levelup plugin.",
     icon: React.createElement(FaReact),
     date: "May 2015 - Jan 2019",
   },
@@ -85,21 +85,21 @@ export const projectsData = [
   {
     title: "CICM MDP Portal",
     description:
-      "I have lead the CICM MDP Portal project which integrated Moodle with Zoho CRM, WordPress and Assessapp Product which took 1.5 years to complete.",
+      "I led the CICM MDP Portal project (Phase A and B) over 1.5 years, leading 15 team members. It integrated Moodle LMS with Zoho CRM, Azure Active Directory, WordPress and Assessapp, and I migrated 4,000+ users from the legacy portal to Zoho CRM and Assessapp.",
     tags: ["Moodle", "Zoho CRM", "WordPress", "Assessapp"],
     imageUrl: cicmImg,
   },
   {
     title: "iTrack Platform",
     description:
-      "I worked on Building iTrack Product using Moodle LMS with various features like Course Ecommerce, Payment gateway integration, Mentor Mentee concept, Job portal etc.",
+      "I built the iTrack product on Moodle LMS: a course marketplace with payment gateway integration (over $100K in transactions), a mentor-mentee module, a job portal, a VPL jail execution server and completion reports for 10,000+ learners.",
     tags: ["Moodle", "PHP", "Javascript", "Mysql", "AJAX"],
     imageUrl: itrackImg,
   },
   {
     title: "Tekstac Platform",
     description:
-      " Developed various features like helpdesk plugin, Secure quiz option, Virtual Programming lab setup and Gamification in Levelup plugin.",
+      "I developed a helpdesk plugin, a secure quiz option (protecting 5,000+ exams), a Virtual Programming Lab setup and the Level Up gamification plugin, which increased engagement by 25%.",
     tags: ["Moodle", "PHP", "Javascript", "PostgreSQL", "AJAX"],
     imageUrl: tekstacImg,
   },
@@ -110,6 +110,7 @@ export const skillsData = [
   "Client Handling",
   "API",
   "Moodle",
+  "Totara",
   "Php",
   "JavaScript",
   "Mysql",

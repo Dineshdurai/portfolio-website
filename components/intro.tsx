@@ -33,7 +33,7 @@ export default function Intro() {
           >
             <Image
               src={profilephoto}
-              alt="Dinesh Durai, Moodle developer"
+              alt="Dinesh Durai, Moodle and Totara developer"
               width="192"
               height="192"
               quality="95"
@@ -63,7 +63,7 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        Dinesh Durai, Moodle Developer
+        Dinesh Durai, Moodle & Totara Developer
       </motion.h1>
 
       <motion.p
@@ -72,10 +72,10 @@ export default function Intro() {
         animate={{ opacity: 1, y: 0 }}
       >
         <span className="font-bold">Hello, I'm Dinesh Durai.</span> I'm a{" "}
-        <span className="font-bold">Moodle developer</span> with{" "}
+        <span className="font-bold">Moodle & Totara developer</span> based in Chennai with{" "}
         <span className="font-bold">10+ years</span> of experience. I enjoy
         working on <span className="italic">LMS sites & apps</span>. My focus is{" "}
-        <span className="underline"> EduTech Space</span>.
+        <span className="underline">EdTech</span>.
       </motion.p>
 
       <motion.div

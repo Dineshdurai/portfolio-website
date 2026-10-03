@@ -10,9 +10,9 @@ import { Toaster } from "react-hot-toast";
 const inter = Inter({ subsets: ["latin"] });
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://dineshduraiportfolio.vercel.app";
-const title = "Dinesh Durai | Moodle Developer & LMS Specialist, Chennai";
+const title = "Dinesh Durai | Moodle & Totara Developer, LMS Specialist, Chennai";
 const description =
-  "Moodle developer in Chennai with 10+ years building LMS platforms, custom plugins and Zoho CRM integrations for EdTech. View projects and get in touch.";
+  "Moodle & Totara developer in Chennai with 10+ years building LMS platforms, plugins and Zoho CRM integrations for EdTech. View projects and get in touch.";
 
 export const metadata = {
   metadataBase: new URL(siteUrl),
@@ -29,7 +29,7 @@ export const metadata = {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Dinesh Durai, Moodle developer",
+        alt: "Dinesh Durai, Moodle and Totara developer",
       },
     ],
   },
@@ -45,7 +45,19 @@ const personJsonLd = {
   "@context": "https://schema.org",
   "@type": "Person",
   name: "Dinesh Durai",
-  jobTitle: "Moodle Developer",
+  jobTitle: "Moodle & Totara Developer",
+  knowsAbout: [
+    "Moodle",
+    "Totara",
+    "LMS development",
+    "PHP",
+    "Moodle plugin development",
+    "Zoho CRM integration",
+    "Multi-tenant LMS architecture",
+    "Single sign-on (SSO)",
+    "React",
+    "Next.js",
+  ],
   description,
   url: siteUrl,
   image: `${siteUrl}/og-image.png`,

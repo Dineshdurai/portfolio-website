@@ -22,15 +22,15 @@ export default function About() {
         After graduating from CIT in{" "}
         <span className="font-medium">Communication Engineering</span>, I joined
         Technoturf Info Services to pursue my passion for programming. I have
-        worked on <span className="font-medium">Moodle LMS</span> for various
+        worked on <span className="font-medium">Moodle and Totara LMS</span> platforms for various
         clients like{" "}
-        <span className="font-medium">Capgemini, Accenture, CTS </span>and etc.{" "}
+        <span className="font-medium">Capgemini, Accenture, CTS</span> and others.{" "}
         <span className="italic">My favorite part of programming</span> is the
         problem-solving aspect. I <span className="underline">love</span> the
         feeling of finally figuring out a solution to a problem. My core stack
         is{" "}
         <span className="font-medium">
-          Moodle, PHP, Javascript, Mysql, React and Zoho CRM
+          Moodle, Totara, PHP, JavaScript, MySQL, React and Zoho CRM
         </span>
         . I am always looking to learn new technologies. I am currently working
         as a <span className="font-medium">Senior PHP Developer</span> at
